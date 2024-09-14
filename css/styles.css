@@ -1,0 +1,256 @@
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('fonts/JetBrainsMono-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: 'JetBrains Mono', monospace;
+    color: #FFFFFF;
+    background-color: #0A0A0A;
+}
+
+/* Header e Navegação */
+header {
+    background-color: #0A0A0A;
+    padding: 20px;
+    border-bottom: 1px solid #1F1F1F;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Seção Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.terminal {
+    background-color: #1F1F1F;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.terminal-header {
+    background-color: #2D2D2D;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.terminal-header .buttons {
+    display: flex;
+}
+
+.terminal-header .button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.terminal-header .button.red {
+    background-color: #FF5F56;
+}
+
+.terminal-header .button.yellow {
+    background-color: #FFBD2E;
+}
+
+.terminal-header .button.green {
+    background-color: #27C93F;
+}
+
+.terminal-body {
+    padding: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    min-height: 200px;
+    font-size: 18px;
+    line-height: 1.5;
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.terminal-content {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.terminal-body::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #333;
+    margin-top: 10px;
+}
+
+/* Botão */
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Seção Sobre */
+#about {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Seção de Habilidades */
+#skills {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills li {
+    background-color: #1F1F1F;
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.skills li i {
+    margin-right: 10px;
+    color: #007BFF;
+    font-size: 24px; /* Aumenta o tamanho dos ícones */
+}
+
+/* Footer */
+footer {
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #1F1F1F;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.social-media li a:hover {
+    text-decoration: underline;
+}
+
+.social-media li i {
+    margin-right: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 20px;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+    }
+}
