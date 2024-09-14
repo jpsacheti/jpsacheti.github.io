@@ -18,6 +18,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /* Estilos Gerais */
 body {
@@ -237,7 +240,7 @@ footer p {
 }
 
 .social-media li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .social-media li i {
