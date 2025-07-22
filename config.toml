@@ -1,0 +1,6 @@
+baseURL = "https://jpsacheti.dev/"
+languageCode = "en-us"
+title = "João Pedro Sacheti - Software Developer"
+[params]
+  description = "João Pedro Sacheti - Software Developer with 10 years of experience in the financial sector."
+  keywords = "João Pedro Sacheti, Software Developer, Java Backend, AWS, Financial Sector"
