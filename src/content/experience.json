@@ -1,0 +1,37 @@
+[
+  {
+    "company": "Zup IT (Itaú Unibanco)",
+    "role": "Specialist Backend Developer",
+    "period": "Jun 2024 - Present",
+    "description": "Design and development of core banking microservices. Architecting scalable, event-driven transaction and payment platforms, integrating databases, and maintaining cloud infrastructure.",
+    "tech": ["Java", "Spring Boot", "AWS", "Kafka", "Kubernetes", "DevSecOps"]
+  },
+  {
+    "company": "First Tecnologia e Inovação (Santander)",
+    "role": "Cloud Engineer",
+    "period": "2023 - Jun 2024",
+    "description": "Led cloud migration and architecture optimization projects on AWS. Automated infrastructure provisioning using Terraform and established robust DevSecOps pipelines.",
+    "tech": ["AWS", "EKS", "Lambda", "Terraform", "Docker", "DevSecOps"]
+  },
+  {
+    "company": "GFT Technologies (Santander)",
+    "role": "Senior Software Developer",
+    "period": "2022 - 2023",
+    "description": "Developed robust, high-performance backend systems for digital banking services. Created secure APIs, optimized database queries, and implemented microservices.",
+    "tech": ["Java", "Spring Stack", "REST APIs", "SQL", "Spring Boot"]
+  },
+  {
+    "company": "Accenture (Santander)",
+    "role": "Software Engineering Specialist",
+    "period": "2020 - 2022",
+    "description": "Supervised software development lifecycle and provided technical leadership. Enforced best architectural practices, microservices design patterns, and agile processes.",
+    "tech": ["Java", "Spring Boot", "Cloud Architecture", "Agile", "Scrum"]
+  },
+  {
+    "company": "Limasoftware",
+    "role": "Java Developer",
+    "period": "Feb 2014 - Sep 2020",
+    "description": "Engineered enterprise application modules using Java SE/EE. Managed SQL databases, built desktop and web tools, and worked closely with clients to deliver bespoke requirements.",
+    "tech": ["Java SE/EE", "Spring", "SQL Server", "Hibernate", "Agile"]
+  }
+]
