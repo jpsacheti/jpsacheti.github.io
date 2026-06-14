@@ -1,0 +1,41 @@
+skills:
+  - category: "Cloud & Infrastructure"
+    items:
+      - name: "AWS Cloud Services"
+        details: "EC2, Lambda, RDS, EKS, MSK, IAM"
+      - name: "Containerization"
+        details: "Docker, Kubernetes"
+      - name: "IaC & Automation"
+        details: "Terraform, CloudFormation"
+
+  - category: "Backend Development"
+    items:
+      - name: "Core Languages"
+        details: "Java (Java 8/11/17), SQL"
+      - name: "Frameworks & Stack"
+        details: "Spring Boot, Spring Security, Hibernate, JPA"
+      - name: "API Design"
+        details: "REST APIs, OpenAPI, OAuth, JWT"
+
+  - category: "DevSecOps & Data"
+    items:
+      - name: "DevSecOps Practices"
+        details: "CI/CD Pipelines, SAST/DAST, Container Scanning"
+      - name: "Databases"
+        details: "SQL (PostgreSQL, Oracle, SQL Server), NoSQL (DynamoDB, Redis)"
+      - name: "Message Broker"
+        details: "Apache Kafka (MSK)"
+
+  - category: "AI & Modern Stack"
+    items:
+      - name: "Generative AI"
+        details: "LLM Integrations (Gemini, OpenAI), Spring AI, AWS Bedrock"
+      - name: "AI Architecture"
+        details: "RAG (Retrieval-Augmented Generation), Vector Search (pgvector)"
+
+  - category: "Methodologies"
+    items:
+      - name: "Agile Frameworks"
+        details: "Scrum, Kanban"
+      - name: "Principles"
+        details: "TDD, Clean Code, DDD, Microservices Patterns"
